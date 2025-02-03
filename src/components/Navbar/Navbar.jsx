@@ -1,6 +1,5 @@
 "use client";
 import Link from 'next/link'
-import Image from "next/image"
 import React, { useState } from 'react';
 import { IoClose } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";

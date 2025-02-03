@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import React from 'react';
-import { FaCalendarAlt, FaTachometerAlt, FaGasPump } from 'react-icons/fa'; 
+import { FaCalendarAlt, FaTachometerAlt, FaGasPump } from 'react-icons/fa';
+
 
 const cars = [
   {
@@ -80,8 +82,10 @@ interface Car {
 const CarCard = ({ car }: { car: Car }) => {
   return (
     <div className="bg-gray-100 rounded-lg shadow-md overflow-hidden">
-      <img
+      <Image
         src={car.image}
+        width={200}
+        height={150}
         alt={car.name}
         className="w-full h-40 object-contain mx-auto rounded-t-2xl" 
         style={{ maxWidth: '90%', marginTop: '0.5rem' }} 

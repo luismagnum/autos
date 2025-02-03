@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { FaStar, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper as SwiperInstance } from "swiper/types"; 
 import "swiper/css";
 
 const testimonials = [
@@ -22,7 +23,7 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Jose perez",
+    name: "Jose Perez",
     time: "Hace 3 semanas",
     rating: 5,
     comment: "Increíble experiencia, obtuve el mejor precio por mi auto.",
@@ -44,7 +45,7 @@ const testimonials = [
 ];
 
 const Testimonials = () => {
-  const [swiper, setSwiper] = useState<any>(null);
+  const [swiper, setSwiper] = useState<SwiperInstance | null>(null); 
 
   return (
     <section className="bg-gray-100 py-12 px-6">
@@ -100,3 +101,4 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google"; // Importamos Poppins
+import { Poppins } from "next/font/google"; 
 import "./globals.css";
 
 // Configuramos Poppins
 const poppins = Poppins({
-  weight: ["300", "400", "500", "600", "700"], // Selecciona los pesos que necesitas
+  weight: ["300", "400", "500", "600", "700"], 
   subsets: ["latin"],
   variable: "--font-poppins",
 });
