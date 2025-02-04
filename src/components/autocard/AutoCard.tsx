@@ -36,15 +36,15 @@ const AutoCard: React.FC<AutoCardProps> = ({ imagen, kilometros, año, motor, co
         <ul className="space-y-3 text-gray-600">
           <li className="flex items-center">
             <FaTachometerAlt className="text-blue-500 mr-2" />
-            <span>{kilometros} km</span>
+            <span>50000 km</span>
           </li>
           <li className="flex items-center">
             <FaCar className="text-blue-500 mr-2" />
-            <span>Año: {año}</span>
+            <span>Año: 2012</span>
           </li>
           <li className="flex items-center">
             <FaCogs className="text-blue-500 mr-2" />
-            <span>Motor: {motor}</span>
+            <span>Motor: V-6</span>
           </li>
           <li className="flex items-center">
             <FaGasPump className="text-blue-500 mr-2" />
@@ -60,7 +60,7 @@ const AutoCard: React.FC<AutoCardProps> = ({ imagen, kilometros, año, motor, co
           </li>
           <li className="flex items-center">
             <FaPalette className="text-blue-500 mr-2" />
-            <span>Color: {color}</span>
+            <span>Color: Plata</span>
           </li>
         </ul>
       </div>
