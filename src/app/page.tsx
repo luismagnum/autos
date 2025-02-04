@@ -7,8 +7,6 @@ import Vehiculo from "@/components/vehiculo/Vehiculo";
 import Testimonials from "@/components/testimonials/Testimonials";
 import Footer from "@/components/footer/Footer";
 import Boton from "../components/Boton";
-import AutoCard from "@/components/autocard/AutoCard";
-import ButtonMas from "@/components/buttonmas/ButtonMas";
 
 export default function Home() {
   return (
