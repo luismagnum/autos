@@ -9,15 +9,8 @@ import {
   FaPalette,
 } from "react-icons/fa";
 
-interface AutoCardProps {
-  imagen: string;
-  kilometros: number;
-  año: number;
-  motor: string;
-  color: string;
-}
 
-const AutoCard: React.FC<AutoCardProps> = ({ imagen, kilometros, año, motor, color }) => {
+const AutoCard = () => {
   return (
     <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row mb-10">
       <div className="relative w-full md:w-1/2 h-64 md:h-auto">
