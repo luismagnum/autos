@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { FaCalendarAlt, FaTachometerAlt, FaGasPump } from 'react-icons/fa';
+import ButtonMas from '../buttonmas/ButtonMas';
 
 
 const cars = [
@@ -92,7 +93,6 @@ const CarCard = ({ car }: { car: Car }) => {
       />
       <div className="p-4">
         <h3 className="text-red-600 text-xl font-semibold ml-0 md:ml-4 mb-2 mt-0">{car.name}</h3>
-
         <div className="space-y-2">
           <div className="flex items-center text-gray-600 ml-2 md:ml-4">
             <FaCalendarAlt className="mr-2" />
@@ -106,6 +106,9 @@ const CarCard = ({ car }: { car: Car }) => {
             <FaGasPump className="mr-2" /> 
             <span>Combustible: {car.fuelType}</span>
           </div>
+          <div className="text-center">
+          <ButtonMas />
+          </div>
         </div>
       </div>
     </div>
@@ -114,9 +117,9 @@ const CarCard = ({ car }: { car: Car }) => {
 
 const Catalogo = () => {
   return (
-    <div className="container mx-auto mt-0">
+    <div className="container mx-auto mt-0 px-4 lg:px-0">
       <div className="text-center py-0 lg:p-6 lg:mb-4">
-        <h2 className="text-sky-900 text-3xl font-bold">Catálogo de autos</h2>
+        <h2 className="text-sky-900 text-3xl font-bold mt-2 md:mt-10">Catálogo de autos</h2>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {cars.map((car) => (
