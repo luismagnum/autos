@@ -18,9 +18,11 @@ const AutoCard = () => {
   return (
     <>
       <Navbar />
+      <div>
           <h1 className="text-4xl text-center text-sky-900 font-bold mt-6">
             Precio del Auto: $10.000.000
           </h1>
+      </div>
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row mt-16 mb-10 md:gap-16">
         <div className="w-[90%] mx-auto md:w-1/2 h-64 md:h-auto">
           <Image
