@@ -24,7 +24,7 @@ const cars = [
   {
     id: 3,
     image: '/assets/car1.jpg',
-    name: 'Volkswagen Golf',
+    name: 'Ford Ranger',
     year: 2019,
     mileage: '50,000 km',
     fuelType: 'Diesel',
@@ -32,7 +32,7 @@ const cars = [
   {
     id: 4,
     image: '/assets/car1.jpg',
-    name: 'Chevrolet Cruze',
+    name: 'Ford Focus',
     year: 2021,
     mileage: '20,000 km',
     fuelType: 'Nafta',
@@ -40,7 +40,7 @@ const cars = [
   {
     id: 5,
     image: '/assets/car1.jpg',
-    name: 'Chevrolet Cruze',
+    name: 'Fiat Cronos',
     year: 2021,
     mileage: '20,000 km',
     fuelType: 'Nafta',
@@ -48,7 +48,7 @@ const cars = [
   {
     id: 6,
     image: '/assets/car1.jpg',
-    name: 'Chevrolet Cruze',
+    name: 'Fiat Toro',
     year: 2021,
     mileage: '20,000 km',
     fuelType: 'Nafta',
@@ -56,7 +56,7 @@ const cars = [
   {
     id: 7,
     image: '/assets/car1.jpg',
-    name: 'Chevrolet Cruze',
+    name: 'Fiat Argo',
     year: 2021,
     mileage: '20,000 km',
     fuelType: 'Nafta',
@@ -64,7 +64,7 @@ const cars = [
   {
     id: 8,
     image: '/assets/car1.jpg',
-    name: 'Chevrolet Cruze',
+    name: 'Fiat Mobi',
     year: 2021,
     mileage: '20,000 km',
     fuelType: 'Nafta',
