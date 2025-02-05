@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import React from 'react';
 import { FaCalendarAlt, FaTachometerAlt, FaGasPump } from 'react-icons/fa';
 import ButtonMas from '../buttonmas/ButtonMas';
+
 
 
 const cars = [

@@ -1,5 +1,6 @@
 "use client";
 import Navbar from "@/components/Navbar/Navbar";
+import Redes from "@/components/redes/Redes";
 import Image from "next/image";
 import {
   FaTachometerAlt,
@@ -11,15 +12,9 @@ import {
   FaPalette,
 } from "react-icons/fa";
 
-interface AutoCardProps {
-  imagen: string;
-  kilometros: number;
-  año: number;
-  motor: string;
-  color: string;
-}
 
-const AutoCard: React.FC<AutoCardProps> = ({ imagen, kilometros, año, motor, color }) => {
+
+const AutoCard = () => {
   return (
     <>
       <Navbar />
@@ -68,6 +63,7 @@ const AutoCard: React.FC<AutoCardProps> = ({ imagen, kilometros, año, motor, co
           </ul>
         </div>
       </div>
+      <Redes />
     </>
   );
 };
