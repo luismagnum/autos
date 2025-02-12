@@ -68,7 +68,7 @@ export default function AdminPage() {
         ))}
       </div>
       <div className="mt-0 flex justify-center">
-          <a href="/" className="bg-blue-500 text-white px-3 py-3 rounded-md hover:bg-blue-600 transition text-base">
+          <a href="/" className="bg-sky-900 text-white px-3 py-3 rounded-md hover:bg-blue-600 transition text-base">
             Volver
           </a>
         </div>
