@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Image from "next/image";
 import Redes from "@/components/redes/Redes";
+import Link from "next/link";
 
 interface Car {
   id: number;
@@ -68,9 +69,9 @@ export default function AdminPage() {
         ))}
       </div>
       <div className="mt-0 flex justify-center">
-          <a href="/" className="bg-sky-900 text-white px-3 py-3 rounded-md hover:bg-blue-600 transition text-base">
+          <Link href="/" className="bg-sky-900 text-white px-3 py-3 rounded-md hover:bg-blue-600 transition text-base">
             Volver
-          </a>
+          </Link>
         </div>
       <Redes />
     </div>
