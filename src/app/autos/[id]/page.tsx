@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import { FaCalendarAlt, FaTachometerAlt, FaGasPump } from "react-icons/fa";
 import Redes from "@/components/redes/Redes";
+import Link from "next/link";
 
 const cars = [
   { id: 1, image: "/assets/car1.jpg", name: "Toyota Corolla", year: 2020, mileage: "45,000 km", fuelType: "Nafta" },
@@ -51,9 +52,9 @@ export default function AutoPage() {
         </div>
 
         <div className="mt-6 flex justify-center">
-          <a href="/" className="bg-sky-900 text-white px-4 py-3 rounded-md hover:bg-blue-600 transition text-base">
+          <Link href="/" className="bg-sky-900 text-white px-4 py-3 rounded-md hover:bg-blue-600 transition text-base">
             Volver
-          </a>
+          </Link>
         </div>
         <Redes />
       </div>
