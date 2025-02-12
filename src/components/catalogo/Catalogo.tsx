@@ -1,3 +1,5 @@
+"use client";
+
 import Image from 'next/image';
 import { FaCalendarAlt, FaTachometerAlt, FaGasPump } from 'react-icons/fa';
 import ButtonMas from '../buttonmas/ButtonMas';
@@ -32,7 +34,7 @@ const cars = [
   {
     id: 4,
     image: '/assets/car1.jpg',
-    name: 'Ford Focus',
+    name: 'Ford Runner',
     year: 2021,
     mileage: '20,000 km',
     fuelType: 'Nafta',
@@ -107,7 +109,7 @@ const CarCard = ({ car }: { car: Car }) => {
             <span>Combustible: {car.fuelType}</span>
           </div>
           <div className="text-center">
-          <ButtonMas />
+          <ButtonMas id={car.id} />
           </div>
         </div>
       </div>
